@@ -1,17 +1,10 @@
 import React from 'react';
-import './App.scss';
 import { BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import 'antd-mobile/dist/antd-mobile.css';
 import QuestionIndex from './pages/questionIndex'
 import Login from './pages/login'
 import UserText from './pages/userText'
-function Home(){
-     return (
-          <div>
-               <h1>首页</h1>
-          </div>
-     )
-}
+import Home from './pages/home'
 function Me(){
      return (
           <div>
