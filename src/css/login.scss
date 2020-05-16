@@ -1,0 +1,260 @@
+html,
+body {
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+}
+ul,li{
+    list-style: none;
+}
+.header {
+	padding-top: 1.22rem;
+}
+
+.avatar {
+	display: block;
+	width: 1.58rem;
+	height: 2.10rem;
+	margin: 0 auto 0.90rem auto;
+}
+
+.box-cell {
+	width: 7rem;
+	height: 0.90rem;
+	margin: 0.30rem auto;
+	position: relative;
+	border-radius: 0.10rem;
+	background: #f7f7f7;
+}
+
+.box-cell:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 0.32rem;
+	height: 0.40rem;
+	top: 0.26rem;
+	left: 0.40rem;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+// .icon-mobile:before {
+// 	background-image: url('../images/login_icon_phone@2x.png');
+// }
+
+// .icon-smsCode:before {
+// 	background-image: url('../images/login_icon_validation@2x.png');
+// }
+
+.box-cell input {
+	padding: 0.26rem 0.20rem 0.24rem 0.4rem;
+	height: 0.90rem;
+	background: #f7f7f7;
+	color: #222;
+	border: none;
+	font-size: 0.28rem;
+	font-family: PingFangSC-Regular;
+	line-height: 0.32rem;
+}
+
+.box-cell input.mobile {
+	/* padding-right: 2.60rem; */
+	width:5rem;
+	/* 修复部分机型输入手机号后，验证码按钮无法点击 */
+}
+
+.box-cell input::-webkit-input-placeholder {
+	color: #bbb;
+}
+
+.getSms {
+	position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+	right: 0.40rem;
+	width: 2rem;
+	height: 0.6rem;
+	border-radius: 1.18rem;
+	font-size: 0.28rem;
+	color: #0FAEBD;
+	letter-spacing: 0;
+	line-height: 0.6rem;
+	padding: 0;
+	border: none;
+}
+
+.scale:active:after {
+	border: none;
+}
+
+.scale:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid #51C6D0;
+	border-radius: 1.18rem;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 200%;
+	height: 200%;
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-webkit-transform-origin: left top;
+	transform-origin: left top;
+}
+
+.login {
+	display: block;
+	width: 6.42rem;
+	height: 0.80rem;
+	margin: 0.70rem auto 0 auto;
+	background: #51C6D0;
+	border-radius: 0.10rem;
+	color: #fff;
+	border: none;
+}
+
+.text-51c6d0 {
+	color: #51c6d0;
+}
+
+.footer {
+	width: 100%;
+	margin-top: 2.36rem;
+    margin-bottom: 1rem;
+     text-align: center;
+}
+
+.footer p {
+	width: 7.6rem;
+	margin: 0 auto;
+	font-size: 0.24rem;
+	// line-height: 0.28rem;
+	text-align: center;
+}
+.header{
+    position: relative;
+}
+.notice{
+    position: absolute;
+    height: 0.80rem;
+    line-height: 0.85rem;
+    font-size: 0.22rem;
+    top: 0;
+    width: 100%;
+    padding-left: 0.7rem;
+    padding-right: 0.2rem;
+    text-align: left;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    margin-bottom: 0;
+    opacity: 0;
+}
+.nc_box{
+  width: 7rem;
+  height: 0.90rem;
+  margin: 0.30rem auto;
+  position: relative;
+  border-radius: 0.10rem;
+}
+#__nc{
+  width: 100%;
+  height: 100%;
+}
+#nc{
+  width: 100%;
+  height: 100%;
+}
+#nc_1-stage-1{
+  width: 100%;
+  height: 100%;
+}
+._nc{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:1.0666667rem;
+    
+}
+// .icon-notice{
+//     display: inline-block;
+//     width: 0.40rem;
+//     height: 0.40rem;
+//     position: absolute;
+//     left: 0.20rem;
+//     top: 0.2rem;
+//     background-image: url('assets/images/notice.png');
+//     background-size: 100% 100%;
+//     background-repeat: no-repeat;
+// }
+// .icon-close{
+//     display: inline-block;
+//     width: 0.30rem;
+//     height: 0.30rem;
+//     position: absolute;
+//     right: 0.20rem;
+//     top: 0.25rem;
+//     background-image: url('assets/images/close.png');
+//     background-size: 100% 100%;
+//     background-repeat: no-repeat;
+// }
+._nc .stage1 .slider {
+  position: absolute;
+  left: 0;
+  right: 0;
+    width: 7rem;
+    height: 0.9rem !important;
+    border-radius: 0px !important;
+    box-shadow: 0 0 0.03rem #999 !important;
+    background-color: #ddd !important;
+}
+._nc .stage1 .track div {
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+._nc .stage1 .bg-green {
+    background-color: #51C6D0 !important;
+}
+._nc .stage1 .bg-red {
+    background-color: #78c430 !important;
+}
+._nc .stage1 .icon {
+    position: absolute;
+    left: 0.14rem;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+._nc .stage1 .button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.9rem;
+    height:100%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.icon-smsCode{
+    display:none;
+}
+._nc .stage1 .track div, ._nc .stage1 .label {
+  line-height:  0.9rem;
+  height: 0.9rem;
+  text-align: center;
+  font-size: .32rem;
+}
+.content{
+  padding-top: 2.25rem;
+  .loginBox{
+    margin:0 auto 2rem;
+    height: 2.6666667rem;
+    width: 2.24rem;
+    .loginImg{
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
